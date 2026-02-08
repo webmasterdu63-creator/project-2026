@@ -56,6 +56,7 @@ from core.favorites import add_favorite
         results_label = QLabel("Résultats :")
         results_label.setStyleSheet("font-size: 18px; font-weight: bold; margin-top: 15px;")
         main_layout.addWidget(results_label)
+self.results_list.itemDoubleClicked.connect(self.add_to_favorites)
 
         self.results_list = QListWidget()
         main_layout.addWidget(self.results_list)
