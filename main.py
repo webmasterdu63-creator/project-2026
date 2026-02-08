@@ -7,7 +7,11 @@ import time
 def main():
     app = QApplication(sys.argv)
 app.setStyleSheet(open("src/ui/styles.qss").read())
+from src.ui.splash import SplashScreen
+from src.ui.main_window import MainWindow
+import time
 
+if __name__ == "__main__":
     # Splash screen
     splash = SplashScreen()
     splash.show()
@@ -20,6 +24,7 @@ app.setStyleSheet(open("src/ui/styles.qss").read())
     window.show()
 
     splash.finish(window)
+
 
     sys.exit(app.exec())
 
