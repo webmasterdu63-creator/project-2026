@@ -67,3 +67,4 @@ class MainWindow(QMainWindow):
         for btn in self.sidebar.buttons:
             btn.setChecked(False)
         self.sidebar.buttons[index].setChecked(True)
+        from core.logger import logger
