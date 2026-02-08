@@ -1,1 +1,41 @@
+🚀 Concept : IT Job Finder 2026
 
+Une application légère, multi‑OS, orientée AdminSys/DevOps, qui centralise les offres d’emploi IT depuis plusieurs plateformes.
+🎯 Objectif
+# IT Job Finder 2026
+
+IT Job Finder 2026 est une application multi‑plateforme permettant de rechercher,
+filtrer et exporter des offres d’emploi IT (AdminSys, DevOps, Cloud, Réseau).
+
+✔ Multi‑sources (LinkedIn, Indeed, WTTJ, Pôle Emploi)  
+✔ Filtres intelligents  
+✔ Export Excel  
+✔ Interface moderne techno/circuit board  
+✔ Compatible Windows, Linux, macOS  
+
+Aider les techniciens, admins systèmes, DevOps juniors et confirmés à trouver rapidement des offres pertinentes, filtrées et classées intelligemment.
+🏗️ Architecture technique
+🧱 Structure du projet (GitHub)
+IT-Job-Finder-2026/
+│
+├── src/
+│   ├── core/
+│   │   ├── api_clients/
+│   │   ├── filters/
+│   │   ├── models/
+│   │   └── exporter/
+│   ├── ui/
+│   ├── cli/
+│   └── main.py
+│
+├── assets/
+│   ├── logo.png
+│   └── theme/
+│
+├── config/
+│   └── settings.yaml
+│
+├── docs/
+│   └── README.md
+│
+└── requirements.txt
