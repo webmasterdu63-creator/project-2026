@@ -78,3 +78,5 @@ class PageSearch(QWidget):
         ]
 
         self.results_list.addItems(fake_results)
+from api.search_engine import search_all
+from core.logger import logger
