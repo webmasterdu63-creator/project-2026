@@ -5,12 +5,8 @@ API_TOKEN_URL = "https://entreprise.francetravail.fr/connexion/oauth2/access_tok
 API_SEARCH_URL = "https://api.francetravail.io/partenaire/offresdemploi/v2/offres/search"
 
 # Tes identifiants France Travail
-CLIENT_ID = "PAR_itjobfinder2026_9e348be54947551c54dcb05b0c802b95848270cb80f662d9f6cd4226927b8dbd"
-CLIENT_SECRET = "74ab1b5fa26760ab13042b7eff027bb21e4b55fd18f93e832f461de69743c88a"
-response.raise_for_status()
-token = response.json().get("access_token")
-logger.info("Token France Travail obtenu")
-return token
+CLIENT_ID = "PAR_itjobfinder2026_9e348be54947551c54dcb05b0c802b95848270cb80f062d9f6cd4226927b8dbd"
+CLIENT_SECRET = "74ab1b5fa26760ab13042b7ef027bb21e4b55fd18f93e832f461de69743c88a"
 
 
 def get_token():
@@ -49,7 +45,6 @@ def search_france_travail(job, location, contract):
         "range": "0-20"
     }
 
-    # Supprimer les paramètres vides
     params = {k: v for k, v in params.items() if v}
 
     response = requests.get(API_SEARCH_URL, headers=headers, params=params)
@@ -70,4 +65,3 @@ def search_france_travail(job, location, contract):
 
     logger.info(f"{len(results)} offres France Travail récupérées")
     return results
-
