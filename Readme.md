@@ -20,6 +20,44 @@ filtrer et exporter des offres d’emploi IT (AdminSys, DevOps, Cloud, Réseau).
 
 Aider les techniciens, admins systèmes, DevOps juniors et confirmés à trouver rapidement des offres pertinentes, filtrées et classées intelligemment.
 🏗️ Architecture technique
+IT-Job-Finder-2026/
+│
+├── src/
+│   ├── ui/
+│   │   ├── main_window.py
+│   │   ├── splash_screen.py
+│   │   └── styles.qss
+│   │
+│   ├── core/
+│   │   ├── api/
+│   │   │   ├── linkedin_client.py
+│   │   │   ├── indeed_client.py
+│   │   │   ├── wttj_client.py
+│   │   │   └── pole_emploi_client.py
+│   │   ├── filters.py
+│   │   ├── exporter.py
+│   │   └── models.py
+│   │
+│   ├── utils/
+│   │   ├── logger.py
+│   │   └── config_loader.py
+│   │
+│   └── main.py
+│
+├── assets/
+│   ├── logo.png
+│   ├── splash.png
+│   └── icons/
+│
+├── config/
+│   └── settings.yaml
+│
+├── docs/
+│   └── README.md
+│
+└── requirements.txt
+
+Cette structure est propre, modulaire, scalable, et elle correspond parfaitement à ton style AdminSys/DevOps.
 🧱 Structure du projet (GitHub)
 IT-Job-Finder-2026/
 │
