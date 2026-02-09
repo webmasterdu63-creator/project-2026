@@ -3,12 +3,12 @@ from PySide6.QtWidgets import (
 )
 from PySide6.QtCore import Qt
 
-from .sidebar import SideBar
-from .header import Header
-from .pages.page_home import PageHome
-from .pages.page_search import PageSearch
-from .pages.page_favorites import PageFavorites
-from .pages.page_settings import PageSettings
+from sidebar import SideBar
+from header import Header
+from pages.page_home import PageHome
+from pages.page_search import PageSearch
+from pages.page_favorites import PageFavorites
+from pages.page_settings import PageSettings
 
 
 class MainWindow(QMainWindow):

@@ -1,5 +1,9 @@
 from src.ui.splash import SplashScreen
 from src.ui.main_window import MainWindow
+
+from splash_screen import SplashScreen 
+from main_window import MainWindow
+>>>>>>> 45cb671 (Refonte complète du projet - nouvelle structure + pages + core)
 from PySide6.QtWidgets import QApplication
 import sys
 import time
