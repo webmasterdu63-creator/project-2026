@@ -24,30 +24,30 @@ IT-Job-Finder-2026/
 ## 🧱 Architecture technique
 Aider les techniciens, admins systèmes et DevOps (junior → confirmé)  
 à trouver rapidement des offres pertinentes, filtrées et classées intelligemment.
-📁 IT-Job-Finder-2026/
-├── 📁 src/
-│   ├── 📁 ui/
+
+📁 IT-Job-Finder-2026
+├── 📁 src
+│   ├── 📁 ui
 │   │   ├── 📄 main_window.py
 │   │   ├── 📄 splash_screen.py
 │   │   └── 🎨 styles.qss
-│   ├── 📁 core/
-│   │   ├── 📁 api/
+│   ├── 📁 core
+│   │   ├── 📁 api
 │   │   │   ├── 📄 linkedin_client.py
 │   │   │   ├── 📄 indeed_client.py
 │   │   │   ├── 📄 wttj_client.py
-│   │   │   ├── 📄 pole_emploi_client.py
+│   │   │   └── 📄 pole_emploi_client.py
 │   │   ├── 📄 filters.py
 │   │   ├── 📄 exporter.py
 │   │   ├── 📄 models.py
-│   │   └── 📁 utils/
+│   │   └── 📁 utils
 │   │       ├── 📄 logger.py
 │   │       └── 📄 config_loader.py
-│   ├── 📁 assets/
+│   ├── 📁 assets
 │   │   ├── 🖼️ logo.png
-│   │   ├── 🖼️ splash.png
-│   │   └── 📁 icons/
-│   ├── 📁 config/
+│   │   └── 🖼️ splash.png
+│   ├── 📁 config
 │   │   └── ⚙️ settings.yaml
-│   ├── 📁 docs/
-│   ├── 📄 README.md
+│   ├── 📁 docs
 │   └── 📄 requirements.txt
+
