@@ -25,6 +25,8 @@ IT-Job-Finder-2026/
 Aider les techniciens, admins systèmes et DevOps (junior → confirmé)  
 à trouver rapidement des offres pertinentes, filtrées et classées intelligemment.
 
+## 🧱 Architecture technique
+
 IT-Job-Finder-2026/
 ├── src/
 │   ├── ui/
@@ -52,4 +54,3 @@ IT-Job-Finder-2026/
 │   ├── docs/
 │   ├── README.md
 │   └── requirements.txt
-
