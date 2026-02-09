@@ -24,3 +24,23 @@ IT-Job-Finder-2026/
 ## 🧱 Architecture technique:
 
 <p align="left"> <img src="https://github.com/webmasterdu63-creator/project-2026/blob/main/architecture.png" alt="Architecture IT Job Finder 2026" width="500"> </p>
+
+🇬🇧 IT Job Finder 2026 — English Version
+
+IT Job Finder 2026
+
+A multi‑OS platform dedicated to IT job searching.
+Optimized for Windows, Linux and Cloud Platforms.
+
+A lightweight, cross‑platform application designed for AdminSys and DevOps professionals.
+It centralizes IT job offers from multiple platforms and provides smart filtering and export features.
+
+IT Job Finder 2026 is a multi‑platform application that allows you to search, filter, and export IT job offers (AdminSys, DevOps, Cloud, Network).
+
+✔ Multi‑source (LinkedIn, Indeed, WTTJ, Pôle Emploi)
+✔ Smart filters
+✔ Excel export
+✔ Modern techno / circuit‑board interface
+✔ Compatible with Windows, Linux, macOS
+
+Helping technicians, system administrators, and DevOps (junior → senior) quickly find relevant job offers, intelligently filtered and organized.
